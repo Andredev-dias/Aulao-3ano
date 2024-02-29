@@ -31,9 +31,19 @@ function media(){
 
 function contar(){
     const num = parseInt($("#numeroInput").val());
-    // console.log(num)
     if(isNaN(num)){
         $("#result").text("Por favor, informe um número válido");
         return;
+    }
+
+    var resultadoStr = "";
+
+    if(num <= 100000){
+        for(var cont = 1;cont <= num; cont++){
+            resultadoStr = resultadoStr + cont + "<br>";
+        }
+        $("#result").html(resultadoStr);
+    }else{
+        $("#result").text("Digite um número menos que 100000 para que não trave!");
     }
 }

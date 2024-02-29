@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+}
+
+.form-check-input{
+    transform: scale(1.4);
+    margin-right: 20px;
+}
+
+.light{
+    background: white;
+}
+
+html{
+    background: black;
+}
