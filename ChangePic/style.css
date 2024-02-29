@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+}
+
+.light{
+    background: rgba(54, 33, 59, 0.799);
+   
+}
+
+html{
+    background: rgba(67, 104, 85, 0.826);
+}
