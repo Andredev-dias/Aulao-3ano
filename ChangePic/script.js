@@ -10,8 +10,16 @@ function changeImage(){
     dt = formatarData(registro);
     
     if(html.classList.contains("light")){
+        btn.style.color = "lightpink"
+        btn.style.borderColor = "lightpink"
+        document.getElementById("colorTxt").style.color = "lightpink"
+        document.getElementById("data").textContent = dt;
         imagem.setAttribute("src", "./Imagens/pic1.jpg");
     }else{
+        btn.style.color = "rgb(41, 144, 139)"
+        btn.style.borderColor = "rgb(41, 144, 139)"
+        document.getElementById("data").textContent = dt;
+        document.getElementById("colorTxt").style.color = "#ffff"
         imagem.setAttribute("src", "./Imagens/pic2.avif");
     }
 }
